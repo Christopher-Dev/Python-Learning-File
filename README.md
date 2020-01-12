@@ -1,1 +1,3 @@
-Always Define your Variable
+Always Define your Variable.
+
+alwasy go in that order. if > elif > else
