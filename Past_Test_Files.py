@@ -1,3 +1,4 @@
+print('Hello World')
 
 a = 1
 b = 2
@@ -59,3 +60,42 @@ def function4(x):
     return 3*x
 f = function4(4)
 print(f)
+
+def function5(some_argument):
+    print(some_argument)
+    print("weeeeeee")
+function5(4)
+
+#bmi function based calculator
+name1 = "chris"
+height_m1 = 2
+weight_kg1 = 260
+
+name2 = "austin"
+height_m2 = 2
+weight_kg2 = 155
+
+name3 = "julia"
+height_m3 = 1.4
+weight_kg3 = 130
+
+
+
+def bmi_calculator(name, height_m, weight_kg):
+    bmi = weight_kg / (height_m ** 2)
+    print('bmi: ')
+    print(bmi)
+    if bmi < 25:
+        return name + "not over weight"
+    else:
+        return name + " is over weight"
+    
+result1 = bmi_calculator(name1, height_m1, weight_kg1)
+result2 = bmi_calculator(name2, height_m2, weight_kg2)
+result3 = bmi_calculator(name3, height_m3, weight_kg3)
+
+print(result1)
+print(result2)
+print(result3)
+
+#--------------------------------------------------------------------------------------------
