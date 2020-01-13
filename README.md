@@ -10,3 +10,4 @@ Always check syntex for functions, end functions with ":"
 
 Always use a "[]" bracket when it comes to lists.
 
+if you need to find the range of a number use a "print(list(range(x, y)))" function to have it print out in the terminal.
