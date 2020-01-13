@@ -144,3 +144,58 @@ print(b)
 b[0], b[2] = b[2], b[0]
 print(b)
 #-------------------------------------------------------------------------------------------
+#for loops
+
+
+a = ["banana", "apple", "ruby"]
+
+
+print(a[0])
+print(a[1])
+print(a[2])
+# very tedeious to repeat it
+#use a "for loop instead :)"
+#all functions, if-else statements, and for loops must end with a ":" or they will be undefined.
+
+#loops
+
+for element in a:
+    print(element)
+    print(element)
+  
+b = [20, 10, 5]
+total = 0
+for e in b:
+    total = total + e
+print(total)
+
+#use a list range function to have the numbers listed instead of having to type out each one.
+#range only gives the first number to second to last, example - range(1, 5) lists out 1,2,3,4 but not 5.
+c = list(range(1,5))
+print(c)
+#to find the sum of a number use "total" = 0
+total2 = 0
+for i in range(1, 5):
+    total2 += i
+print(total2)
+
+print(list(range(1, 8)))
+# "%" is used for division.
+total3 = 0
+for i in range(1, 8):
+    if i % 3 == 0:
+        total += i
+print(total3)
+
+
+
+
+#unsure of how to solve the problem...
+print(list(range(1, 100)))
+
+def printMultiples(1, 100):
+    'takes n and m as integers and finds all first m multiples of n'
+for m in (n,m):
+    if n % 2 == 0:
+        while n < 100:
+            print(n)
