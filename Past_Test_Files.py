@@ -1,5 +1,5 @@
 print('Hello World')
-
+#Introductions to variables
 a = 1
 b = 2
 
@@ -31,8 +31,8 @@ else:
 
 
 
-#Functions----------------------------------------------------------------
-
+#-----------------------------------------------------------------------------------------
+#Functions
 def function1():
     print('ahhhhhhh')
     print('ahhhhhhh 2')
@@ -79,8 +79,6 @@ name3 = "julia"
 height_m3 = 1.4
 weight_kg3 = 130
 
-
-
 def bmi_calculator(name, height_m, weight_kg):
     bmi = weight_kg / (height_m ** 2)
     print('bmi: ')
@@ -98,4 +96,51 @@ print(result1)
 print(result2)
 print(result3)
 
+#miles to kilometers converter
+
+def calculator(x, y):
+    return (x ** y)
+a = calculator(5, 1.6)
+print(a)
+
+
 #--------------------------------------------------------------------------------------------
+
+#introduction to Lists
+a = [3, 10, -1]
+print(a)
+a.append(1)
+print(a)
+a.append("Hello")
+print(a)
+a.append([1, 2])
+print(a)
+
+#.pop always removes the last string from a list
+#all lists go in square brackets "[]"
+a.pop()
+print(a)
+a.pop()
+print(a)
+a.pop()
+print(a)
+a[0]
+print(a[0])
+a[2]
+print(a[2])
+#in python all lists start with 0 in the place of 1. Example- 0,1,2,3,4,5 instead of 1,2,3,4,5,6
+#to replace a string in a list use "list name[define where you are replacing] = what you are replacing it with"
+a[0] = 100
+print(a)
+#b = ([variable 1],[variable 2], [variable 3])
+b = ["banana", "apple", "mirosoft"]
+print(b)
+#use the below method to move a variable around in a printed list
+temp = b[0]
+b[0] = b[2]
+b[2] = temp
+print(b)
+#The method below is a quicker method used to move variables around in a printed list
+b[0], b[2] = b[2], b[0]
+print(b)
+#-------------------------------------------------------------------------------------------
