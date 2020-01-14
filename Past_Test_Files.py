@@ -199,3 +199,39 @@ for m in (n,m):
     if n % 2 == 0:
         while n < 100:
             print(n)
+#-----------------------------------------------------------------------------------------
+#While loops
+
+
+total2 = 0
+j = 1
+while j < 5:
+    total2 += j
+    j+= 1
+print(total2)
+
+total = 0
+for i in range(1, 5):
+    total += i
+print(total)
+
+given_list = [5, 4, 4, 3, 1, -2, -3, -5]
+total3 = 0
+i = 0
+while given_list[i] > 0:
+    total3 += given_list[i]
+    i += 1
+print(total3)
+#-------------------------------------------------------------------------------------------------
+
+for i in range(99, 0, -1):
+    if i == 1:
+        print('1 bottle of beer on the wall, 1 bottle of beer!')
+        print('So take it down, pass it around, no more bottles of beer on the wall!')
+    elif i == 2:
+        print('2 more bottles of beer on the wall, 2 more bottles of beer!')
+        print('So take one down, pass it around, 1 more bottle of beer on the wall!')
+    else:
+        print('{0} bottles of beer on the wall, {0} bottles of beer!'.format(i))
+        print('So take it down, pass it around, {0} more bottles of beer on the wall!'.format(i - 1))
+#--------------------------------------------------------------------------------------------------------
