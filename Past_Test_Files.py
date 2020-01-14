@@ -235,3 +235,12 @@ for i in range(99, 0, -1):
         print('{0} bottles of beer on the wall, {0} bottles of beer!'.format(i))
         print('So take it down, pass it around, {0} more bottles of beer on the wall!'.format(i - 1))
 #--------------------------------------------------------------------------------------------------------
+def frange(start, stop, step):
+     i = start
+     while i < stop:
+         yield i
+         i += step
+
+for i in frange(0.5, 1.0, 0.1):
+    print(i)
+#--------------------------------------------------------------------------------------------------------
