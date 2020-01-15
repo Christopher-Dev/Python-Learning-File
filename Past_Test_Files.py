@@ -252,3 +252,51 @@ def frange(start, stop, step):
 for i in frange(0.5, 1.0, 0.1):
     print(i)
 #--------------------------------------------------------------------------------------------------------
+#More For loops
+
+a = ["apple", "banana", "republic"]
+#the "a" is known as the variable, in this case "element"
+#everything inside of the bracket is called a list
+for element in a:
+    print(element)
+#this is a for loop, always start with the variable
+for i in range(len(a)):
+    print(a[i])
+#when ever you use the range function it will start from #0, 1, 2 which = to 0-3
+#
+#there are two ways of doing the same thing, problem one is simple and can be used in most cases, but sometimes the index
+#^in this case, "i" the index matters and the second must be used to account for that.
+#
+#they both do exactly the dsame thing but just in two differant ways.
+
+for i in range(len(a)):
+    for j in range(i + 1):
+        #i = 0 -> j = 0
+        #i = 1 -> j = 0, 1
+        #i = 2 -> j = 0, 1, 2
+        print(a[i])
+#so using the above method you can have i increase in prints
+#tutorial 5 problem
+print(list(range(1, 100)))
+total = 0
+for i in range(1, 100):
+    if i % 3 == 0:
+        total += i
+    elif i % 5 == 0:
+        total += i
+print(total)
+
+#or it can be added to the same line
+for i in range(1, 100):
+    if i % 3 == 0 or i % 5 == 0:
+        total += i
+print(total)
+
+#tutorial 6 problem
+given_list =[7, 5, 4, 4, 3, 1, -2, -3, -5, -7]
+total2 = 0
+j = len(given_list) - 1
+while given_list[j] < 0:
+    total2 += given_list[j]
+    j -= 1
+print(total2)

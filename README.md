@@ -22,3 +22,5 @@ if you are adding to an existing variable, it has to be before
 += -> add to the value
 =+ -> just an asignation to a positive number, no different than = + or =
 
+
+

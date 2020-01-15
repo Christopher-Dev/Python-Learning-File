@@ -1,0 +1,2 @@
+d = {}
+#to format the dictionary format as follows, d = {"George": 24, "Tom": 32} this make the program think of it in a grid type of format, 24 and 32 are tha values while george and tom are the keys of the dictionary.
