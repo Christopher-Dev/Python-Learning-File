@@ -222,6 +222,14 @@ while given_list[i] > 0:
     total3 += given_list[i]
     i += 1
 print(total3)
+
+
+total = 0
+j = 1
+while j < 5:
+    total += j
+    j += 1
+print(total)
 #-------------------------------------------------------------------------------------------------
 
 for i in range(99, 0, -1):
