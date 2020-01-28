@@ -300,3 +300,32 @@ while given_list[j] < 0:
     total2 += given_list[j]
     j -= 1
 print(total2)
+#-------------------------------------------------------------------------------------------------------
+#Dictionary
+
+d = {}
+#to format the dictionary format as follows, d = {"George": 24, "Tom": 32} 
+# this make the program think of it in a grid type of format, 24 and 32 are tha values while george and tom are the keys of the dictionary.
+d["george"] = 24
+d["tom"] = 32
+d["jenny"] = 16
+print(d["george"])
+#when ever using a dictionary if you tell the program to print the key it will output the value ie. "george" would print out 24
+#key are most often strings or numbers
+d["jenny"] = 20
+print(d["jenny"])
+#a key can be changed at a later tmie by telling the dictionary to change it to a certain value given
+#you can also add numbers as mentioned above to the dictionary just as strings
+d["100"] = 10
+print(d["100"])
+#
+#If you dont know how to do something *GOOGLE IT*
+#Best resources are python discord-help areas and stackoverflow
+#
+for key, value in d.items():
+    print("key:")
+    print(key)
+    print("value:")
+    print(value)
+    print("")
+#-----------------------------------------------------------------------------------------------------

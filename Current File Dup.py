@@ -24,4 +24,10 @@ class Person:
     def stand_up(self):
         self.is_sitting = False
         
-    
+p1 = Person('Alice', 'agressive', False)
+p2 = Person('Becky', 'talkative', True)
+#p1 owns r2
+p1.robot_owned = r2
+p2.robot_owned = r1
+
+p1.robot_owned.introduce_self()
